@@ -3,8 +3,8 @@ import {ActivatedRoute, Params} from "@angular/router";
 import {Observable} from "rxjs";
 
 @Component({
-	selector: "meow-navbar",
-	templateUrl: "./templates/navbar.php"
+	selector: "meow-footer",
+	templateUrl: "./templates/footer.php"
 })
 
-export class NavbarComponent {}
+export class FooterComponent {}
