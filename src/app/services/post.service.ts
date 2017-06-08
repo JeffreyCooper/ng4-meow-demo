@@ -5,6 +5,7 @@ import {BaseService} from "./base.service";
 import {Post} from "../classes/post";
 import {Status} from "../classes/status";
 
+// This is the Angular Decorator that provides content from the backend for whatever may call any of these things
 @Injectable()
 export class PostService extends BaseService {
 	constructor(protected http: Http) {
